@@ -18,7 +18,7 @@
 ### 第 2 步：一键部署
 点击下面的按钮（或手动操作）：
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/YOLO-1995/gift-vote)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/YOLO-1995/Gift_vote)
 
 > 把上面链接里的 `你的用户名/gift-vote` 换成你第 1 步创建的仓库地址。
 
