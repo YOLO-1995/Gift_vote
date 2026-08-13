@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "name": "元素金属质感键帽",
+    "desc": "键帽，上面刻元素",
+    "material": "锌合金，电镀磨砂",
+    "image": "opt_1.png",
+    "price_text": "¥27"
+  },
+  {
+    "id": 2,
+    "name": "元素金属质拼字徽章",
+    "desc": "拼字徽章，上面刻金属元素组成单词",
+    "material": "锌合金",
+    "image": "opt_2.png",
+    "price_text": "¥10.5"
+  },
+  {
+    "id": 3,
+    "name": "鼠标垫",
+    "desc": "上印元素周期表",
+    "material": "",
+    "image": "opt_3.png",
+    "price_text": "小号21*26:¥3.2"
+  },
+  {
+    "id": 4,
+    "name": "帆布包",
+    "desc": "正反面印SEM/TEM图案",
+    "material": "12 安涤棉",
+    "image": "opt_4.png",
+    "price_text": "40*40:¥6.5"
+  },
+  {
+    "id": 5,
+    "name": "铁磁流体解压橡皮泥",
+    "desc": "要求支持外壳丝印 / 激光雕刻企业 LOGO， / 定制彩盒包装",
+    "material": "铝盒装磁力泥",
+    "image": "opt_5.png",
+    "price_text": "50mL:¥3.85"
+  },
+  {
+    "id": 6,
+    "name": "铁磁流体挂件",
+    "desc": "要求支持外壳丝印 / 激光雕刻企业 LOGO， / 定制彩盒包装",
+    "material": "小圆",
+    "image": "opt_6.png",
+    "price_text": "36mm*33mm:¥12"
+  },
+  {
+    "id": 7,
+    "name": "科学主题链条书签",
+    "desc": "要求支持外壳丝印 / 激光雕刻企业 LOGO， / 定制彩盒包装",
+    "material": "蓝色试剂直筒瓶+粉色试剂三角瓶书签,\n黄色试剂三角瓶书签,多样式烧瓶书签,\n绿色试剂三角瓶书签,\n化学分子结构书签",
+    "image": "opt_7.png",
+    "price_text": "30g:¥2.1"
+  },
+  {
+    "id": 8,
+    "name": "金属钥匙扣/冰箱贴",
+    "desc": "产品可定制图案 /包装可定制",
+    "material": "金属",
+    "image": "opt_8.png",
+    "price_text": "30mm*50mm:¥4.3"
+  },
+  {
+    "id": 9,
+    "name": "亚克力钥匙扣/冰箱贴",
+    "desc": "产品可定制图案 /包装可定制",
+    "material": "亚克力",
+    "image": "opt_9.png",
+    "price_text": "30mm*50mm:¥1.9"
+  },
+  {
+    "id": 10,
+    "name": "手机支架",
+    "desc": "产品可定制图案 /包装可定制",
+    "material": "ABS",
+    "image": "opt_10.png",
+    "price_text": "高130mm 底座98mm:¥4.5"
+  },
+  {
+    "id": 11,
+    "name": "手持小电扇",
+    "desc": "产品可定制图案",
+    "material": "ABS/pc/线路板",
+    "image": "opt_11.png",
+    "price_text": "188*90*46.5mm:¥10"
+  },
+  {
+    "id": 12,
+    "name": "pvc桌面摆件",
+    "desc": "产品可定制图案 /包装可定制",
+    "material": "pvc",
+    "image": "opt_12.png",
+    "price_text": "5*4*4cm:¥17.5"
+  },
+  {
+    "id": 13,
+    "name": "镜片/屏幕清洗液",
+    "desc": "产品可定制图案",
+    "material": "非离子表面活性剂",
+    "image": "opt_13.png",
+    "price_text": "50ml:¥0.4"
+  }
+]
