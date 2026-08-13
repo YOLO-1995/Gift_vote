@@ -1,19 +1,18 @@
-# Render 一键部署蓝图
-# 部署后自动获得：公网 https 地址 + 免费的 Postgres 数据库（数据持久）
+# Render 一键部署蓝图（适配 vote_app/ 子目录结构）
 services:
   - type: web
     name: gift-vote
     runtime: python
-    plan: free                       # 免费套餐
-    region: oregon                    # 海外节点；国内访问偏慢但免费
+    plan: free
+    region: oregon
     branch: main
-    buildCommand: pip install -r requirements.txt
-    startCommand: python vote_app.py
+    buildCommand: pip install -r vote_app/requirements.txt
+    startCommand: python vote_app/vote_app.py
     healthCheckPath: /
     envVars:
       - key: PYTHON_VERSION
         value: "3.13"
-      - key: DATABASE_URL            # 自动注入免费 Postgres 连接串
+      - key: DATABASE_URL
         fromDatabase:
           name: gift-vote-db
           property: connectionString
@@ -22,5 +21,5 @@ databases:
   - name: gift-vote-db
     databaseName: vote
     user: vote
-    plan: free                       # 免费 Postgres (1GB)
+    plan: free
     postgresMajorVersion: "16"
