@@ -110,7 +110,7 @@ VOTE_HTML = """<!DOCTYPE html>
        cursor:pointer;transition:.15s;position:relative}
  .card:hover{border-color:#91a7ff}
  .card.sel{border-color:#2b5cff;box-shadow:0 4px 14px rgba(43,92,255,.18)}
- .card img{width:100%;height:150px;object-fit:cover;background:#f0f0f0;display:block}
+ .card img{width:100%;height:160px;object-fit:contain;background:#f7f8fa;display:block;padding:8px}
  .card .ph{width:100%;height:150px;display:flex;align-items:center;justify-content:center;
            background:#eef1f6;color:#9aa3b2;font-size:13px}
  .card .body{padding:12px 14px}
@@ -149,12 +149,13 @@ const sel=new Set();
 const grid=document.getElementById('grid');
 OPTS.forEach(o=>{
  const c=document.createElement('div'); c.className='card';
+ const esc=s=>(s||'').split(String.fromCharCode(10)).join('<br>');
  const img = o.image
    ? `<img src="/images/${o.image}" alt="">`
    : `<div class="ph">暂无参考图</div>`;
  c.innerHTML=`${img}<div class="ck">✓</div>
    <div class="body"><div class="nm">${o.name}</div>
-   <div class="ds">${o.desc||''}${o.material?'<br>材质：'+o.material:''}</div>
+   <div class="ds">${esc(o.desc)}${o.material?'<br>材质：'+o.material:''}${o.spec?'<br>规格：'+o.spec:''}</div>
    ${o.price_text?`<div class="pr">${o.price_text}</div>`:''}</div>`;
  c.onclick=()=>{
    if(sel.has(o.id)){sel.delete(o.id);c.classList.remove('sel');}
